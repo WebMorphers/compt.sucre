@@ -12,7 +12,7 @@ const NavBar = () => {
   ];
   let [open, setOpen] = useState(false);
   return (
-    <div className="w-full fixed shadow top-0 left-0">
+    <div className="w-full shadow absolute top-0 left-0 brightness-100	z-50 ">
       <div className="md:flex items-center justify-between   py-4 md:px-10 px-7">
         <div className="text-2xl flex items-center cursor-pointer font-bold text-green-800">
         <img className="h-20 w-23" src={logo} alt="" /> 
