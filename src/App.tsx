@@ -1,12 +1,13 @@
 
 import './App.css'
+import Welcome from './components/welcome/welcome'
 
 const App = () => {
 
   return (
     <>
       <div className=''>
-        <h1 className=''>Hello World</h1>
+          <Welcome />
         </div>
     </>
   )
