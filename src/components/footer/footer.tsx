@@ -30,7 +30,7 @@ const Footer = () => {
                 <div>
                     <div className='flex flex-col justify-center items-center'>
                         <div>
-                            <img className='w-32 ' src={logo} alt="" />
+                            <img className='w-21' src={logo} alt="" />
                         </div>
                         <div>
                             <p>Comptoir sucre</p>

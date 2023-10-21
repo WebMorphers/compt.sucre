@@ -1,4 +1,3 @@
-import React from 'react';
 import ReactPlayer from 'react-player';
 import vid from "../../assets/vid.mp4";
 
@@ -9,9 +8,11 @@ const VideoComponent = () => {
       <ReactPlayer
         className='react-player'
         url={vid}  
-        controls={true}  
         width='20%'
         height='20%'
+        loop={true}
+        muted={true}
+        playing={true}
       />
     </div>
   );
