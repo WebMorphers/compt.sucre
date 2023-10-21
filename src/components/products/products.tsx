@@ -17,8 +17,8 @@ const products = () => {
                 <img src={cakes} alt="cakes" />
                
             </div>
-            <div>
-                <a className='px-5 bg-[#402B2A]' href="/menu">Our menu</a>
+            <div className='shadow-2xl'>
+                <a className='px-5 py-3 rounded-xl bg-[#402B2A] text-white' href="/menu">Our menu</a>
             </div>
         </div>
     </div>
