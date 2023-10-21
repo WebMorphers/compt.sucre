@@ -4,6 +4,7 @@ import img2 from '../../assets/cake2.png'
 import img3 from '../../assets/cake3.png'
 import img4 from '../../assets/cake4.png'
 import img5 from '../../assets/cake5.png'
+import cakes from '../../assets/cakes.png'
 
 const products = () => {
   return (
@@ -12,14 +13,9 @@ const products = () => {
             <div>
                 our products 
             </div>
-            <div className='w-full h-96 relative '>
-                <div className='flex  items-center justify-center '>
-                    <img className='absolute top-0 bottom-0 m-auto mr-[600px] W-[150px] h-[150px] transform hover:scale-125 cursor-pointer' src={img2} alt="" />
-                    <img className='absolute top-0 bottom-0 m-auto ml-[600px] W-[150px] h-[150px]  transform hover:scale-125 cursor-pointer    ' src={img3} alt="" />
-                    <img className='absolute top-0 bottom-0 m-auto ml-96 W-[200px] h-[200px]  transform hover:scale-125 cursor-pointer' src={img4} alt="" />
-                    <img className='absolute top-0 bottom-0 m-auto mr-96 W-[200px] h-[200px]  transform hover:scale-125 cursor-pointer' src={img1} alt="" />
-                    <img className='absolute top-0 bottom-0 m-auto  transform hover:scale-125 cursor-pointer' src={img5} alt="" />
-                </div>
+            <div className=''>
+                <img src={cakes} alt="cakes" />
+               
             </div>
             <div>
                 <a href="">Our menu</a>
