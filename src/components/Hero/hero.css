@@ -3,11 +3,7 @@
 #h1{
 font-family: 'Itim', cursive;
 }
-.hero
-{
-    opacity: 0.75;
-background: url('../../assets/hero-bg.jpg'), lightgray 50% / cover no-repeat;
-}
+ 
 
 #pp{
 
