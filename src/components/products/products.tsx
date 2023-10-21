@@ -9,7 +9,7 @@ import cakes from '../../assets/cakes.png'
 const products = () => {
   return (
     <div className='bg bg-no-repeat bg-cover bg-center h-full w-full'>
-        <div>
+        <div className='flex flex-col items-center justify-between py-20'>
             <div>
                 our products 
             </div>
@@ -18,7 +18,7 @@ const products = () => {
                
             </div>
             <div>
-                <a href="">Our menu</a>
+                <a className='px-5 bg-[#402B2A]' href="/menu">Our menu</a>
             </div>
         </div>
     </div>
