@@ -13,9 +13,12 @@
     "@fontsource-variable/glory": "^5.0.17",
     "@fontsource/itim": "^5.0.16",
     "@fontsource/twinkle-star": "^5.0.16",
+    "@heroicons/react": "^2.0.18",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.17.0"
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.17.0",
+    "styled-components": "^6.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
