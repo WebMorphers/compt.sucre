@@ -9,7 +9,7 @@ import cakes from '../../assets/cakes.png'
 const products = () => {
   return (
     <div className='bg bg-no-repeat bg-cover bg-center h-full w-full'>
-        <div>
+        <div className='flex flex-col items-center justify-between py-20'>
             <div>
                 our products 
             </div>
@@ -17,8 +17,8 @@ const products = () => {
                 <img src={cakes} alt="cakes" />
                
             </div>
-            <div>
-                <a href="">Our menu</a>
+            <div className='shadow-2xl'>
+                <a className='px-5 py-3 rounded-xl bg-[#402B2A] text-white' href="/menu">Our menu</a>
             </div>
         </div>
     </div>
