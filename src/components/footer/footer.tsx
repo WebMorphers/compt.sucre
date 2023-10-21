@@ -11,9 +11,9 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer>
-        <div className='bg-[#402B2A] flex flex-col justify-center gap-3 text-white px-48 py-4'>
-            <div className='flex justify-between '>
-                <div className='flex flex-col justify-center items-center gap-2'>
+        <div className='bg-[#402B2A] flex flex-col flex-wrap justify-center py-8 gap-3 text-white px-5 lg:px-24 '>
+            <div className='grid md:grid-cols-3 gap-y-8'>
+                <div className='flex flex-col justify-center items-center gap-2 px-5'>
                     <a href="">
                         ACCUEIL
                     </a>
@@ -28,16 +28,16 @@ const Footer = () => {
 
                 </div>
                 <div>
-                    <div className='flex flex-col justify-center items-center'>
+                    <div className='flex flex-col justify-center items-center px-5'>
                         <div>
-                            <img className='w-21' src={logo} alt="" />
+                            <img className='w-20' src={logo} alt="" />
                         </div>
                         <div>
                             <p>Comptoir sucre</p>
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col justify-center gap-2'>
+                <div className='flex flex-col justify-center items-center gap-2 px-5'>
                     <a className='flex gap-3'>
                         <div>
                             <FontAwesomeIcon icon={faInstagram} style={{color: "#ffffff",}} />
