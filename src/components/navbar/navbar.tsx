@@ -42,7 +42,7 @@ const Navbar = () => {
             onClick={() => scrollToSection("about_us")}
             href="#about_us"
           >
-            ABOUT US
+            ACCUEIL
           </a>
         </li>
         <li className="p-4">
@@ -51,17 +51,29 @@ const Navbar = () => {
             onClick={() => scrollToSection("projects")}
             href="#projects"
           >
-            OUR PROJECTS
+            MENU
           </a>
         </li>
-        <li className="p-4">
-          {" "}
+         <li className="p-4">
           <a
             className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-orange-600"
+            onClick={() => scrollToSection("projects")}
+            href="#projects"
+          >
+            A PROPOS
+          </a>
+        </li>
+
+      </ul>
+      <ul className="hidden md:flex">
+      <li className="p-4">
+          {" "}
+          <a
+            className="  hover:text-orange-600"
             onClick={() => scrollToSection("contact")}
             href="#contact"
           >
-            <SlSocialInstagram size={20}  color={"white"} />
+            <SlSocialInstagram size={20}  color={"white"}  />
           </a>
         </li>
       </ul>
