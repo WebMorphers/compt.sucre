@@ -16,11 +16,17 @@ const Hero = () => {
       
       <div className='flex flex-col justify-center items-center text-center gap-7'>
         <h1 id='h1' className='text-3xl text-white'>Home-baked with love</h1>
+        <div className="bg-[#FFF] h-10 w-[2px]"></div>
         <p id='pp' className='text-xl text-white max-w-xl'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
         </p>
+        <button
+  className="text-white hover:text-zinc-200 backdrop-blur-lg bg-gradient-to-tr from-transparent via-[rgba(121,121,121,0.16)] to-transparent rounded-md py-2 px-6 shadow hover:shadow-zinc-400 duration-700"
+>
+  Button
+</button>
     </div>
     </div>
   );
