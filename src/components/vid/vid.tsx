@@ -1,20 +1,20 @@
-import React from 'react'
-import ReactPlayer from 'react-player'
+import React from 'react';
+import ReactPlayer from 'react-player';
+import vid from "../../assets/vid.mp4";
 
-
-const vid = () => {
+const VideoComponent = () => {
   return (
-
     <div>
-        
-        <ReactPlayer
-          className='react-player'
-          url=''
-          width='100%'
-          height='100%'
-        />
+      <p>dqsdzdq</p>
+      <ReactPlayer
+        className='react-player'
+        url={vid}  
+        controls={true}  
+        width='20%'
+        height='20%'
+      />
     </div>
-  )
+  );
 }
 
-export default vid
+export default VideoComponent;
