@@ -11,16 +11,17 @@ const Hero = () => {
   };
 
   return (
-    <div className="hero w-full relative z-0 " style={heroStyle}>
+    <div className="hero w-full z-0 ">
+      <div className="brightness-50" style={heroStyle}></div>
       <Navbar />
       <div className='flex flex-col justify-center items-center'>
-      <h1 id='h1' className='text-3xl text-white'>Home-baked with love</h1>
-      <p id='pp' className='text-xl text-white max-w-xl'>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-      </p>
-    </div>
+        <h1 id='h1' className='text-3xl text-white'>Home-baked with love</h1>
+        <p id='pp' className='text-xl text-white max-w-xl'>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+        </p>
+      </div>
     </div>
   );
 };
