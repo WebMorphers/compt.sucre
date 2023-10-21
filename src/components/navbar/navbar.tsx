@@ -1,6 +1,7 @@
 import logo from "../../assets/logo.png";
 import { useEffect, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { SlSocialInstagram } from 'react-icons/sl';
 
 const Navbar = () => {
   const [nav, setnav] = useState(false);
@@ -30,14 +31,14 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div id="nav" className="flex w-full  top-0 fixed justify-between items-center h-24 mx-auto px-4 text-white">
+    <div id="nav" className="flex w-full  top-0  justify-between items-center h-24 mx-auto px-4 text-white">
       <a href="#" onClick={() => scrollToSection("hello")}>
           <img className="h-20 w-23" src={logo} alt="" />
         </a>
       <ul className="hidden md:flex">
         <li className="p-4">
           <a
-            className="no-underline mx-4 cursor-pointer font-light text-white hover:text-orange-600"
+            className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-orange-600"
             onClick={() => scrollToSection("about_us")}
             href="#about_us"
           >
@@ -46,15 +47,13 @@ const Navbar = () => {
         </li>
         <li className="p-4">
           <a
-            className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600"
+            className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-orange-600"
             onClick={() => scrollToSection("projects")}
             href="#projects"
           >
             OUR PROJECTS
           </a>
         </li>
-      </ul>
-      <ul className="hidden md:flex">
         <li className="p-4">
           {" "}
           <a
@@ -62,10 +61,13 @@ const Navbar = () => {
             onClick={() => scrollToSection("contact")}
             href="#contact"
           >
-            CONTACT US
+            <SlSocialInstagram size={20}  color={"white"} />
           </a>
         </li>
       </ul>
+       
+       
+       
       <div onClick={chang} className="block md:hidden">
         {nav ? (
           <AiOutlineClose size={20} color={"white"}/>
