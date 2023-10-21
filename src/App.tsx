@@ -1,7 +1,7 @@
 import Hero from './components/Hero/hero'
 import './App.css'
 import Welcome from './components/welcome/welcome'
-import Products from './components/products/products'
+import Footer from './components/footer/footer'
 
 const App = () => {
 
@@ -10,7 +10,7 @@ const App = () => {
        <Hero />
        <div className=''>
           <Welcome />
-          <Products />
+          <Footer />
         </div>
     </>
   )
