@@ -1,13 +1,11 @@
-
+import Hero from './components/Hero/hero'
 import './App.css'
 
 const App = () => {
 
   return (
     <>
-      <div className=''>
-        <h1 className=''>Hello World</h1>
-        </div>
+       <Hero />
     </>
   )
 }
