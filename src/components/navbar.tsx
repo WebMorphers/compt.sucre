@@ -24,13 +24,13 @@ const NavBar = () => {
           className="absolute right-8 top-6 md:hidden cursor-pointer"
         >
           {open ? (
-            <AiOutlineClose className="text-3xl" />
+            <AiOutlineClose className="text-3xl text-white" />
           ) : (
-            <AiOutlineMenu className="text-3xl" />
+            <AiOutlineMenu className="text-3xl  text-white" />
           )}
         </div>
         <ul
-          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static   md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-300 ${
+          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static     md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-300 ${
             open
               ? "top-16 opacity-100"
               : "top-[-350px] md:opacity-100 opacity-0"
@@ -40,7 +40,7 @@ const NavBar = () => {
             <li key={index} className="md:ml-8 text-xl md:my-0 my-7">
               <a
                 href={link.link}
-                className="text-white    hover:text-gray-400 duration-500"
+                className="text-white  hover:text-gray-400 duration-500"
               >
                 {link.name}
               </a>
