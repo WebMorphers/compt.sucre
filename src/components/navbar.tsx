@@ -2,7 +2,7 @@
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai"; 
 import React, { useState } from "react";
-import logo from '../assets/'
+import logo from '../assets/logo.png'
 
 const NavBar = () => {
   let links = [

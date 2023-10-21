@@ -5,11 +5,11 @@ import Welcome from './components/welcome/welcome'
 const App = () => {
 
   return (
-    <>
-      <div className=''>
+    <> 
+       <Hero />
+       <div className=''>
           <Welcome />
         </div>
-       <Hero />
     </>
   )
 }
