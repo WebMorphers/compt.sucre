@@ -1,6 +1,7 @@
 import ReactPlayer from 'react-player';
-import vid from "../../assets/vid2.mp4";
+import vid from "../../assets/vid3.mp4";
 import bg from "../../assets/paper-bg.png";
+import './vid.css'
 
 const VideoComponent = () => {
 
@@ -16,21 +17,30 @@ const VideoComponent = () => {
   return (
     <div className='flex flex-col justify-center items-center py-14 px-6' style={heroStyle}>
       <h1 className='text-3xl'>We bake fresh , homemade brownies </h1>
-      <div className='flex flex-row gap-52 justify-center items-center'>
-       
-      <div className="grid grid-cols-2 grid-rows-3 gap-8">
-  <div className="div1 flex flex-col justify-center items-center gap-5"><img width="62" height="62" src="https://img.icons8.com/external-rabit-jes-outline-color-rabit-jes/62/external-brownie-dessert-rabit-jes-outline-color-rabit-jes.png" alt="external-brownie-dessert-rabit-jes-outline-color-rabit-jes"/>
-    <h1 className='text-lg'>fraîchement cuit au four chaque jour  </h1>
-<p> Chez nous, la fraîcheur est au cœur de tout ce que nous faisons.
-   Chaque jour, notre équipe de pâtissiers talentueux prépare ces gourmandises à partir d'ingrédients de première qualité,
-   cuits au four pour atteindre la perfection</p>
-  </div>
-  <div className="div2 flex flex-col justify-center items-center gap-5"><img width="48" height="48" src="https://img.icons8.com/color/48/flour-in-paper-packaging.png" alt="flour-in-paper-packaging"/>
-    <h1 className='text-lg'>Ingrédients de qualité  </h1>
-<p> Nous sélectionnons soigneusement les meilleurs ingrédients pour nos brownies,
-   en utilisant du chocolat pur,
-   du beurre frais, des œufs et des noix de première qualité.</p>
-  </div>
+      <div className='flex flex-row  justify-center items-center w-full '>
+        <ReactPlayer
+          className='react-player'
+          url={vid}  
+          width='200%'
+          height='150%'
+          loop={true}
+          muted={true}
+          playing={true}
+          playbackRate={3}
+          />
+        <div className="grid grid-cols-2 grid-rows-3 gap-8">
+          <div className="div1 flex flex-col justify-center items-center gap-5"><img width="62" height="62" src="https://img.icons8.com/external-rabit-jes-outline-color-rabit-jes/62/external-brownie-dessert-rabit-jes-outline-color-rabit-jes.png" alt="external-brownie-dessert-rabit-jes-outline-color-rabit-jes"/>
+          <h1 className='text-lg'>fraîchement cuit au four chaque jour  </h1>
+          <p> Chez nous, la fraîcheur est au cœur de tout ce que nous faisons.
+          Chaque jour, notre équipe de pâtissiers talentueux prépare ces gourmandises à partir d'ingrédients de première qualité,
+          cuits au four pour atteindre la perfection</p>
+        </div>
+        <div className="div2 flex flex-col justify-center items-center gap-5"><img width="48" height="48" src="https://img.icons8.com/color/48/flour-in-paper-packaging.png" alt="flour-in-paper-packaging"/>
+          <h1 className='text-lg'>Ingrédients de qualité  </h1>
+          <p> Nous sélectionnons soigneusement les meilleurs ingrédients pour nos brownies,
+          en utilisant du chocolat pur,
+          du beurre frais, des œufs et des noix de première qualité.</p>
+        </div>
   <div className="div3 flex flex-col justify-center items-center gap-5"><img width="58" height="58" src="https://img.icons8.com/external-sbts2018-outline-color-sbts2018/58/external-cake-cooking-sbts2018-outline-color-sbts2018.png" alt="external-cake-cooking-sbts2018-outline-color-sbts2018"/>
     <h1 className='text-lg'>Variété pour Tous les Goûts   </h1>
 <p> Que vous préfériez le chocolat noir intense, le caramel fondant,
