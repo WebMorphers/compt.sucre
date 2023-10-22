@@ -17,15 +17,7 @@ const VideoComponent = () => {
     <div className='flex flex-col justify-center items-center py-14 px-6' style={heroStyle}>
       <h1 className='text-3xl'>We bake fresh , homemade brownies </h1>
       <div className='flex flex-row gap-52 justify-center items-center'>
-      <ReactPlayer
-        className='react-player'
-        url={vid}  
-        width='150%'
-        height='150%'
-        loop={true}
-        muted={true}
-        playing={true}
-      />
+       
       <div className="grid grid-cols-2 grid-rows-3 gap-8">
   <div className="div1 flex flex-col justify-center items-center gap-5"><img width="62" height="62" src="https://img.icons8.com/external-rabit-jes-outline-color-rabit-jes/62/external-brownie-dessert-rabit-jes-outline-color-rabit-jes.png" alt="external-brownie-dessert-rabit-jes-outline-color-rabit-jes"/>
     <h1 className='text-lg'>fraîchement cuit au four chaque jour  </h1>

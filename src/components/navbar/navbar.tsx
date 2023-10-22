@@ -87,13 +87,18 @@ const Navbar = () => {
           <AiOutlineMenu size={20} color={"white"}/>
         )}
       </div>
-      <ul
-        className={
+      <div  className={
           nav
-            ? "fixed left-0 top-0  h-full w-[90%] border-r border-r-gray-900 bg-amber-700 ease-in-out duration-500 flex items-center justify-center flex-col"
+            ? "fixed left-0 top-0  h-full w-full border-r border-r-gray-900 bg-amber-700 ease-in-out duration-500 flex items-center justify-center flex-col"
             : "ease-in-out duration-500 fixed left-[-100%]"
-        }
-      >
+        }>
+          <div onClick={chang} className="static top-0 right-0">
+        
+        <AiOutlineClose size={20} color={"white"}/>
+      
+    </div>
+
+      <ul>
          <a href="#" onClick={() => scrollToSection("hello")}>
           <img className="h-20 w-23" src={logo} alt="" />
         </a>
@@ -126,6 +131,7 @@ const Navbar = () => {
           </a>
         </li>
       </ul>
+      </div>
     </div>
   );
 };

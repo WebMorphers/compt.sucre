@@ -11,8 +11,8 @@ const App = () => {
     <> 
        <Hero />
        <div className=''>
-          <Welcome />
           <Vid />
+          <Welcome />
           <Footer />
           
         </div>
