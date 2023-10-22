@@ -75,7 +75,12 @@ const Navbar = () => {
             href="https://www.instagram.com/comptoir.sucre/"
             target="blank"
           >
+          <div className="flex items-center">
+
             <SlSocialInstagram size={30}  color={"white"}  />
+            <span className="ml-2 opacity-0 transition-opacity duration-300 hover:opacity-100">comptoir.sucre</span>
+        </div>
+
           </a>
         </li>
       </ul>
