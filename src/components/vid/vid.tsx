@@ -23,7 +23,7 @@ const VideoComponent = () => {
           <div className="div1 flex flex-col justify-center items-center gap-5"><img width="62" height="62" src="https://img.icons8.com/external-rabit-jes-outline-color-rabit-jes/62/external-brownie-dessert-rabit-jes-outline-color-rabit-jes.png" alt="external-brownie-dessert-rabit-jes-outline-color-rabit-jes"/>
           <h1 className='text-lg'>fraîchement cuit au four chaque jour  </h1>
           <p> Chez nous, la fraîcheur est au cœur de tout ce que nous faisons.
-          Chaque jour, notre équipe de pâtissiers talentueux prépare ces gourmandises à partir d'ingrédients de première qualité,
+          Chaque jour,
           cuits au four pour atteindre la perfection</p>
         </div>
         <div className="div2 flex flex-col justify-center items-center gap-5"><img width="48" height="48" src="https://img.icons8.com/color/48/flour-in-paper-packaging.png" alt="flour-in-paper-packaging"/>
@@ -35,16 +35,15 @@ const VideoComponent = () => {
   <div className="div3 flex flex-col justify-center items-center gap-5"><img width="58" height="58" src="https://img.icons8.com/external-sbts2018-outline-color-sbts2018/58/external-cake-cooking-sbts2018-outline-color-sbts2018.png" alt="external-cake-cooking-sbts2018-outline-color-sbts2018"/>
     <h1 className='text-lg'>Variété pour Tous les Goûts   </h1>
 <p> Que vous préfériez le chocolat noir intense, le caramel fondant,
-   des options sans gluten, ou même une touche de lotus, nos brownies sauront satisfaire tous les palais.
+   ou même une touche de lotus.
     De plus, personnalisez-les avec un choix de toppings, comme Twix, Oreo, M&M, Snickers, KitKat, 
-  et bien d'autres. Consultez notre menu pour découvrir nos délicieuses options et créez le brownie parfait</p>
+  et bien d'autres.</p>
   </div>
   <div className="div4 flex flex-col justify-center items-center gap-5"><img width="50" height="50" src="https://img.icons8.com/external-others-pike-picture/50/external-Express-Delivery-delivery-others-pike-picture.png" alt="external-Express-Delivery-delivery-others-pike-picture"/>
     <h1 className='text-lg'>Livraison rapide  </h1>
 <p> Plus besoin d'attendre longtemps pour déguster nos brownies fraîchement sortis du four.
    Nous assurons une livraison rapide à Rabat,
-    vous permettant ainsi de savourer ces délices moelleux dans le confort de votre foyer
-  . Commandez dès maintenant !</p>
+    </p>
   </div>
   <div className="div5 flex flex-col justify-center items-center gap-5"><img width="48" height="48" src="https://img.icons8.com/color/48/gift--v1.png" alt="gift--v1"/>
     <h1 className='text-lg'>Cadeau parfait   </h1>
