@@ -19,7 +19,7 @@ const Hero = () => {
       <div className='flex flex-col justify-center items-center text-center gap-7 px-11 mt-24'>
         <h1 id='h1' className='text-3xl text-white '>Bienvenue chez Le Comptoir Sucré </h1>
         <div className="bg-[#FFF] h-10 w-[2px]"></div>
-        <p id='pp' className='text-xl text-white max-w-xl font-light description'>
+        <p id='pp' className='text-xl text-white max-w-xl description'>
         votre destination ultime pour des brownies, des pancakes, des cookies et des crêpes délicieuses au cœur de la ville de Rabat. Nous sommes les connaisseurs locaux de l'indulgence sucrée et nous nous engageons à vous apporter nos délices à votre porte.
         </p>
         <button
