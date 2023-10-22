@@ -13,7 +13,7 @@ const insta = () => {
     <div className='py-8 px-20 max-sm:px-12 xl:px-36 flex flex-col justify-center items-center gap-5'>
     <h1 className='text-6xl title text-center'>Taste Like Never Before .</h1>
 
-        <h1 className='text-sky-950 text-center'>Suivez  <a href="" className='visited:text-black  hover:text-neutral-700 text-inherit'><span className='underline'>@comptoir.sucre</span></a> sur Instagram pour plus d'inspiration en brownies gourmets !</h1>
+        <h1 className='text-sky-950 text-center'>Suivez  <a href="https://www.instagram.com/comptoir.sucre/" target='-blank' className='visited:text-black  hover:text-neutral-700 text-inherit'><span className='underline'>@comptoir.sucre</span></a> sur Instagram pour plus d'inspiration en brownies gourmets !</h1>
         <div className='grid md:grid-cols-4 gap-9 grid-cols-2'>
         <HoverVideoPlayer restartOnPaused videoSrc={vid1}/>
           <HoverVideoPlayer restartOnPaused videoSrc={vid2}/>

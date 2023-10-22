@@ -1,5 +1,5 @@
  import Navbar from '../navbar/navbar';
-import img from '../../assets/image.png';
+import img from '../../assets/image.webp';
 import '@fontsource-variable/glory';
 import '@fontsource/itim';
 
