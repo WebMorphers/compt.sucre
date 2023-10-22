@@ -1,5 +1,7 @@
-.react-player{
-padding: 12px;
-background: grey;
-width: 100%;
+.title {
+  font-family: 'Itim', sans-serif;
+}
+.description{
+    font-family: 'Glory Variable', sans-serif;
+
 }
