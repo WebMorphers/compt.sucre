@@ -1,4 +1,4 @@
-import HoverVideoPlayer from 'react-hover-video-player';
+import HoverVideoPlayer from 'react-hover-video-player'
 import vid1 from '../../assets/insta1.mp4'
 import vid2 from '../../assets/insta2.mp4'
 import vid3 from '../../assets/insta3.mp4'
