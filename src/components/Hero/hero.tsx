@@ -1,5 +1,7 @@
  import Navbar from '../navbar/navbar';
 import img from '../../assets/image.png';
+import '@fontsource-variable/glory';
+import '@fontsource/itim';
 
 const Hero = () => {
   const heroStyle = {
@@ -15,12 +17,10 @@ const Hero = () => {
       <Navbar />
       
       <div className='flex flex-col justify-center items-center text-center gap-7 px-11 mt-24'>
-        <h1 id='h1' className='text-3xl text-white'>Home-baked with love</h1>
+        <h1 id='h1' className='text-3xl text-white '>Bienvenue chez Le Comptoir Sucré </h1>
         <div className="bg-[#FFF] h-10 w-[2px]"></div>
-        <p id='pp' className='text-xl text-white max-w-xl font-extralight'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+        <p id='pp' className='text-xl text-white max-w-xl font-light description'>
+        votre destination ultime pour des brownies, des pancakes, des cookies et des crêpes délicieuses au cœur de la ville de Rabat. Nous sommes les connaisseurs locaux de l'indulgence sucrée et nous nous engageons à vous apporter nos délices à votre porte.
         </p>
         <button
   className="text-white mt-8 hover:text-zinc-200 backdrop-blur-lg bg-gradient-to-tr from-transparent via-[rgba(121,121,121,0.16)] to-transparent rounded-md py-2 px-6 shadow hover:shadow-zinc-400 duration-700"

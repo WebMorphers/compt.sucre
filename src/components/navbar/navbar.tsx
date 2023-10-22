@@ -38,7 +38,7 @@ const Navbar = () => {
       <ul className="hidden md:flex">
         <li className="p-4">
           <a
-            className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-orange-600"
+            className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-amber-400"
             onClick={() => scrollToSection("about_us")}
             href="#about_us"
           >
@@ -47,7 +47,7 @@ const Navbar = () => {
         </li>
         <li className="p-4">
           <a
-            className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-orange-600"
+            className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-amber-400"
             onClick={() => scrollToSection("projects")}
             href="#projects"
           >
@@ -56,7 +56,7 @@ const Navbar = () => {
         </li>
          <li className="p-4">
           <a
-            className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-orange-600"
+            className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-amber-400"
             onClick={() => scrollToSection("projects")}
             href="#projects"
           >
@@ -73,7 +73,7 @@ const Navbar = () => {
             onClick={() => scrollToSection("contact")}
             href="#contact"
           >
-            <SlSocialInstagram size={20}  color={"white"}  />
+            <SlSocialInstagram size={30}  color={"white"}  />
           </a>
         </li>
       </ul>
@@ -89,22 +89,22 @@ const Navbar = () => {
       </div>
       <div  className={
           nav
-            ? "fixed left-0 top-0  h-full w-full border-r border-r-gray-900 bg-amber-700 ease-in-out duration-500 flex items-center justify-center flex-col"
+            ? "fixed left-0 top-0  h-full w-full border-r border-r-gray-900 bg-zinc-300 ease-in-out duration-500 flex items-center justify-center flex-col"
             : "ease-in-out duration-500 fixed left-[-100%]"
         }>
-          <div onClick={chang} className="static top-0 right-0">
+          <div onClick={chang} className="absolute top-20 right-20 ">
         
         <AiOutlineClose size={20} color={"white"}/>
       
     </div>
 
-      <ul>
+      <ul className="flex flex-col justify-center items-center">
          <a href="#" onClick={() => scrollToSection("hello")}>
           <img className="h-20 w-23" src={logo} alt="" />
         </a>
         <li className="p-4 ">
           <a
-            className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600"
+            className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-amber-400"
             onClick={() => scrollToSection("about_us")}
             href="#about_us"
           >
@@ -113,7 +113,7 @@ const Navbar = () => {
         </li>
         <li className="p-4">
           <a
-            className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600 "
+            className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-amber-400"
             onClick={() => scrollToSection("projects")}
             href="#projects"
           >
@@ -123,7 +123,7 @@ const Navbar = () => {
         <li className="p-4">
           {" "}
           <a
-            className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600 "
+            className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-amber-400"
             onClick={() => scrollToSection("contact")}
             href="#contact"
           >
