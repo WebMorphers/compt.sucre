@@ -14,7 +14,7 @@ const welcome = () => {
         </div>
         <div className="container p-10 px-12 lg:px-44 z-0 text-center  flex flex-col justify-between h-full items-center">
             <div className="title text-3xl flex flex-row gap-6">
-                <h1>Home-Baked With Love </h1> <img width="40" height="40" src="https://img.icons8.com/color/48/filled-like.png" alt="filled-like"/>
+                <h1>Home-Baked With Love </h1>  
             </div>
             <div className="bg-[#402B2A] h-10 w-[2px]"></div>
             <div>
