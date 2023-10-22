@@ -1,5 +1,5 @@
 import ReactPlayer from 'react-player';
-import vid from "../../assets/vid.mp4";
+import vid from "../../assets/vid2.mp4";
 
 const VideoComponent = () => {
   return (

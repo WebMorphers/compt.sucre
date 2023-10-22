@@ -12,8 +12,9 @@ const App = () => {
        <Hero />
        <div className=''>
           <Welcome />
-          <Footer />
           <Vid />
+          <Footer />
+          
         </div>
     </>
   )
