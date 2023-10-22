@@ -3,6 +3,8 @@ import './App.css'
 import Welcome from './components/welcome/welcome'
 import Footer from './components/footer/footer'
 import Vid from './components/vid/vid'
+import Insta from './components/insta/insta'
+
 
 
 const App = () => {
@@ -12,6 +14,7 @@ const App = () => {
        <Hero />
        <div className=''>
           <Vid />
+          <Insta />
           <Welcome />
           <Footer />
           
