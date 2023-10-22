@@ -8,7 +8,7 @@ import '@fontsource/itim';
 
 const welcome = () => {
   return (
-    <div className=" h-72 max-sm:h-[600px] max-md:h-96 bg-[#dfcdb9] w-full z-0 ">
+    <div className=" h-72 max-sm:h-[600px] max-md:h-96 bg-gradient-to-b from-white to-[#dfcdb9] w-full z-0 ">
         <div className="absolute right-0 z-10">
             <img className="h-72 max-sm:h-[600px] max-md:h-96 max-md:opacity-80 " src={spoon} alt="" />
         </div>
