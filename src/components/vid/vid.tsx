@@ -1,6 +1,7 @@
 import ReactPlayer from 'react-player';
-import vid from "../../assets/vid2.mp4";
+import vid from "../../assets/vid3.mp4";
 import bg from "../../assets/paper-bg.png";
+import './vid.css'
 
 const VideoComponent = () => {
 
@@ -25,7 +26,8 @@ const VideoComponent = () => {
           loop={true}
           muted={true}
           playing={true}
-        />
+          playbackRate={3}
+          />
         <div className="grid grid-cols-2 grid-rows-3 gap-8">
           <div className="div1 flex flex-col justify-center items-center gap-5"><img width="62" height="62" src="https://img.icons8.com/external-rabit-jes-outline-color-rabit-jes/62/external-brownie-dessert-rabit-jes-outline-color-rabit-jes.png" alt="external-brownie-dessert-rabit-jes-outline-color-rabit-jes"/>
           <h1 className='text-lg'>fraîchement cuit au four chaque jour  </h1>
