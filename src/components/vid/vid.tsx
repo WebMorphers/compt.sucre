@@ -15,7 +15,7 @@ const VideoComponent = () => {
   };
   
   return (
-    <div className='flex flex-col justify-center items-center py-14 px-16 gap-5' style={heroStyle}>
+    <div id="about" className='flex flex-col justify-center items-center py-14 px-16 gap-5' style={heroStyle}>
       <h1 className='text-3xl text-center description'>We bake fresh , homemade brownies </h1>
       <div className='flex flex-row  justify-center items-start w-full text-center'>
         

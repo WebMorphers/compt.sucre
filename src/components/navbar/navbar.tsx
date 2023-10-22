@@ -41,7 +41,7 @@ const Navbar = () => {
           <a
             className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-amber-400"
             onClick={() => scrollToSection("about_us")}
-            href="#about_us"
+            href="/"
           >
             ACCUEIL
           </a>
@@ -50,7 +50,7 @@ const Navbar = () => {
           <a
             className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-amber-400"
             onClick={() => scrollToSection("projects")}
-            href="#projects"
+            href="/menu"
           >
             MENU
           </a>
@@ -59,7 +59,7 @@ const Navbar = () => {
           <a
             className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-amber-400"
             onClick={() => scrollToSection("projects")}
-            href="#projects"
+            href="#about"
           >
             A PROPOS
           </a>
@@ -101,7 +101,7 @@ const Navbar = () => {
     </div>
         
       <ul className="flex flex-col justify-center items-center">
-         <a href="#" onClick={() => scrollToSection("hello")}>
+         <a href="/" onClick={() => scrollToSection("hello")}>
           <img className="h-20 w-23" src={logo} alt="" />
         </a>
         <div className="absolute top-0 object-top z-0">
@@ -110,29 +110,29 @@ const Navbar = () => {
         <li className="p-4 ">
           <a
             className="no-underline mx-4 cursor-pointer font-thin text-black hover:text-amber-400"
-            onClick={() => scrollToSection("about_us")}
-            href="#about_us"
+            onClick={() => {scrollToSection("projects"), chang()}}
+            href="/"
           >
-            ABOUT US
+            ACCUEIL
           </a>
         </li>
         <li className="p-4">
           <a
             className="no-underline mx-4 cursor-pointer font-thin text-black hover:text-amber-400"
             onClick={() => scrollToSection("projects")}
-            href="#projects"
+            href="/menu"
           >
-            OUR PROJECTS
+            MENU
           </a>
         </li>
         <li className="p-4">
           {" "}
           <a
             className="no-underline mx-4 cursor-pointer font-thin text-black hover:text-amber-400"
-            onClick={() => scrollToSection("contact")}
-            href="#contact"
+            onClick={() => {scrollToSection("projects"), chang()}}
+            href="#about"
           >
-            CONTACT US
+            A PROPOS
           </a>
         </li>
       </ul>
