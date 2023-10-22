@@ -7,13 +7,13 @@ import vid4 from '../../assets/insta4.mp4'
 
 const insta = () => {
   return (
-    <div>
-        <h1 className='text-sky-950'>Suivez  <a href="" className='visited:text-black  hover:text-neutral-700 text-inherit'><span className='underline'>@killerbrownie</span></a> sur Instagram pour plus d'inspiration en brownies gourmets !</h1>
-        <div className='grid grid-cols-4 gap-9'>
-        <HoverVideoPlayer videoSrc={vid1}/>
-        <HoverVideoPlayer videoSrc={vid2}/>
-        <HoverVideoPlayer videoSrc={vid3}/>
-        <HoverVideoPlayer videoSrc={vid4}/>
+    <div className='py-8 px-12'>
+        <h1 className='text-sky-950 text-center'>Suivez  <a href="" className='visited:text-black  hover:text-neutral-700 text-inherit'><span className='underline'>@comptoir.sucre</span></a> sur Instagram pour plus d'inspiration en brownies gourmets !</h1>
+        <div className='grid md:grid-cols-4 gap-9 grid-cols-2'>
+          <HoverVideoPlayer videoSrc={vid1}/>
+          <HoverVideoPlayer videoSrc={vid2}/>
+          <HoverVideoPlayer videoSrc={vid3}/>
+          <HoverVideoPlayer videoSrc={vid4}/>
 
         </div>
 
