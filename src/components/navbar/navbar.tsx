@@ -72,7 +72,8 @@ const Navbar = () => {
           <a
             className="  hover:text-orange-600"
             onClick={() => scrollToSection("contact")}
-            href="#contact"
+            href="https://www.instagram.com/comptoir.sucre/"
+            target="blank"
           >
             <SlSocialInstagram size={30}  color={"white"}  />
           </a>
