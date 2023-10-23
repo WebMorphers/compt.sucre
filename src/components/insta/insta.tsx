@@ -19,21 +19,21 @@ const insta = () => {
         <div className='grid md:grid-cols-4 gap-9 grid-cols-2'>
         <LazyLoad >
     
-        <HoverVideoPlayer restartOnPaused videoSrc={vid1}/>
+        <HoverVideoPlayer restartOnPaused threshold={0.95} videoSrc={vid1}/>
         </LazyLoad>
         <LazyLoad >
     
-        <HoverVideoPlayer restartOnPaused videoSrc={vid2}/>
+        <HoverVideoPlayer restartOnPaused threshold={0.95} videoSrc={vid2}/>
         </LazyLoad>
         <LazyLoad >
     
-        <HoverVideoPlayer restartOnPaused videoSrc={vid3}/>
+        <HoverVideoPlayer threshold={0.95} restartOnPaused videoSrc={vid3}/>
         </LazyLoad>
         <LazyLoad >
     
-        <HoverVideoPlayer restartOnPaused videoSrc={vid4}/>
+        <HoverVideoPlayer restartOnPaused  threshold={0.95} videoSrc={vid4}/>
         </LazyLoad>
-        
+
         </div>
 
     </div>
