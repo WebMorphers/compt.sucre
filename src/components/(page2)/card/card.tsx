@@ -12,7 +12,7 @@ type CardProps = {
 const Card = ({ item }: CardProps) => {
     return (
         <div>
-            <div className="card max-md:m-5 xlg: m-12">
+            <div className="card max-md:m-5 xlg: m-12 hover:shadow-2xl rounded-3xl">
                 <img src={item.img} alt="" />
                 <div className="card__content">
                     <p className="card__title">{item.name}</p>

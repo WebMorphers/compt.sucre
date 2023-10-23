@@ -8,9 +8,7 @@ import Card from "../components/(page2)/card/card"
 import '@fontsource-variable/glory';
 import '@fontsource/itim';
 import '../components/(page1)/welcome/welcome.css'
-import cake1 from '../assets/cake1.png'
-import cake2 from '../assets/cake2.png'
-import cake3 from '../assets/cake3.png'
+import Footer from "../components/(page1)/footer/footer"
 
 
 
@@ -67,7 +65,7 @@ const menu = () => {
           <div className="mt-24 flex flex-col gap-5">
             <div className="flex flex-col my-5 items-center justify-center text-7xl font-semibold title text-center gap-5">
                 <h1>Notre Menu</h1>
-                <hr className="w-1/2 " />
+                <hr className="w-full md:w-1/2 " />
 
             </div>
                 <div>
@@ -80,6 +78,7 @@ const menu = () => {
                 </div>
             </div>
           </div>
+          <Footer />
         </>
       );
     };
