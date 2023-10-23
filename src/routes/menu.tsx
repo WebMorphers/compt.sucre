@@ -11,48 +11,48 @@ import Navbar from "../components/(page2)/navbar/navbar"
 
 const menu = () => { 
     const items = [
-        {
-          "id": 1,
-          "name": "Homemade Mini Brownie Pizza",
-          "Description": "Indulge in the perfect combination of rich, fudgy brownie topped with a medley of delectable toppings, all in a convenient mini pizza form. Perfect for sharing or savoring solo.",
-          "img": Homemadembp, // Corrected image source
-          "price": "$9.99"
-        },
-        {
-          "id": 2,
-          "name": "Brownie Classique",
-          "Description": "Our classic brownie is a timeless delight. Moist, chocolatey, and irresistible, it's the perfect treat for brownie enthusiasts. Satisfy your sweet tooth with every bite.",
-          "img": Browniec, // Corrected image source
-          "price": "$5.99"
-        },
-        {
-          "id": 3,
-          "name": "30 Mini Brownies and Cookies",
-          "Description": "Enjoy a platter of 30 mini brownies and cookies, the ultimate assortment for those who can't choose between the two. Perfect for parties, gatherings, or satisfying your sweet cravings.",
-          "img": MiniBrownies, // Corrected image source
-          "price": "$19.99"
-        },
-        {
-          "id": 4,
-          "name": "White Brownies",
-          "Description": "Our white brownies offer a delightful twist on the traditional brownie. Made with white chocolate, these brownies are sweet, creamy, and simply heavenly.",
-          "img": WhitBrownies, // Corrected image source
-          "price": "$6.99"
-        },
-        {
-          "id": 5,
-          "name": "Bowl of Happiness",
-          "Description": "Dive into a bowl of pure happiness with this delightful dessert. Overflowing with layers of sweetness and joy, it's the perfect way to brighten your day.",
-          "img": Bowl, // Corrected image source
-          "price": "$7.99"
-        },
-        {
-          "id": 6,
-          "name": "Pizza Brownies",
-          "Description": "Pizza Brownies: A savory-sweet delight",
-          "img": Pizzab,  
-          "price": "$7.99"
-        }
+      {
+        "id": 1,
+        "name": "Mini Pizza au Brownie ",
+        "Description": "Laissez-vous tenter par la combinaison parfaite d'un brownie riche et fondant garni d'un mélange de délicieuses garnitures, le tout sous forme de mini pizza pratique. Parfait à partager ou à déguster en solo.",
+        "img": Homemadembp,
+        "price": "90 MAD"
+      },
+      {
+        "id": 2,
+        "name": "Brownie Classique",
+        "Description": "Notre brownie classique est un délice intemporel. Moelleux, chocolaté et irrésistible, c'est la gourmandise parfaite pour les amateurs de brownie. Satisfait votre dent sucrée à chaque bouchée.",
+        "img": Browniec,
+        "price": "50 MAD"
+      },
+      {
+        "id": 3,
+        "name": "  Brownies et Cookies",
+        "Description": "Profitez d'un plateau de 30 mini brownies et cookies, l'assortiment ultime pour ceux qui ne peuvent pas choisir entre les deux. Parfait pour les fêtes, les réunions ou pour satisfaire vos envies sucrées.",
+        "img": MiniBrownies,
+        "price": "200 MAD"
+      },
+      {
+        "id": 4,
+        "name": "Brownies Blancs",
+        "Description": "Nos brownies blancs offrent une délicieuse variation du brownie traditionnel. Fabriqués avec du chocolat blanc, ces brownies sont doux, crémeux et tout simplement divins.",
+        "img": WhitBrownies,
+        "price": "60 MAD"
+      },
+      {
+        "id": 5,
+        "name": "Bol de Bonheur",
+        "Description": "Plongez dans un bol de pur bonheur avec ce délicieux dessert. Débordant de couches de douceur et de joie, c'est la façon parfaite d'illuminer votre journée.",
+        "img":  Bowl,
+        "price": "70 MAD"
+      },
+      {
+        "id": 6,
+        "name": "Brownies Pizza",
+        "Description": "Brownies Pizza : Un délice sucré-salé",
+        "img":  Pizzab,
+        "price": "70 MAD"
+      }
       ];
     return (
         <>
@@ -72,7 +72,7 @@ const menu = () => {
                       <div className='text-2xl font-bold '>
                         <h1>{item.name}</h1>
                       </div>
-                      <div className='font-light '>{item.Description}</div>
+                      <div className='font-light text-center'>{item.Description}</div>
                       <h1 className='text-blue-500 text-2xl font-bold'>{item.price}</h1>
 
                     </div>
