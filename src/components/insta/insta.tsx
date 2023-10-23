@@ -33,6 +33,7 @@ const insta = () => {
     
         <HoverVideoPlayer restartOnPaused videoSrc={vid4}/>
         </LazyLoad>
+        
         </div>
 
     </div>
