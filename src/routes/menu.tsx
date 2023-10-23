@@ -8,9 +8,7 @@ import Card from "../components/(page2)/card/card"
 import '@fontsource-variable/glory';
 import '@fontsource/itim';
 import '../components/(page1)/welcome/welcome.css'
-import cake1 from '../assets/cake1.png'
-import cake2 from '../assets/cake2.png'
-import cake3 from '../assets/cake3.png'
+import Footer from "../components/(page1)/footer/footer"
 
 
 
@@ -65,14 +63,12 @@ const menu = () => {
         <>
           <Navbar />
           <div className="mt-24 flex flex-col gap-5">
-            <div className="flex my-5 items-center justify-center text-7xl font-semibold title text-center">
+            <div className="flex flex-col my-5 items-center justify-center text-7xl font-semibold title text-center gap-5">
                 <h1>Notre Menu</h1>
+                <hr className="w-full md:w-1/2 " />
+
             </div>
-            <hr />
-                <div className="">
-                    <img className="pt-24 absolute opacity-70 -top-5 -left-5 w-40" src={cake1} alt="" />
-                    <img className="pt-24 absolute opacity-30 top-5 -right-5 w-20" src={cake2} alt="" />
-                    <img className="pt-24 absolute opacity-80 bottom-0 left-5 w-30" src={cake3} alt="" />
+                <div>
                 <div>
                     <div className='flex justify-center items-center flex-wrap'>
                         {items.map((item) => (
@@ -82,6 +78,7 @@ const menu = () => {
                 </div>
             </div>
           </div>
+          <Footer />
         </>
       );
     };

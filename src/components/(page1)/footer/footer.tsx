@@ -14,14 +14,14 @@ const Footer = () => {
         <div className='bg-[#402B2A] flex flex-col flex-wrap justify-center py-8 gap-3 text-white px-5 lg:px-24 '>
             <div className='grid md:grid-cols-3 gap-y-8'>
                 <div className='flex flex-col justify-center items-center gap-2 px-5'>
-                    <a href="">
+                    <a href="/">
                         ACCUEIL
                     </a>
-                    <a href="">
+                    <a href="#about">
                         A PROPOS
                     </a>
 
-                    <a href="">
+                    <a href="/menu">
                         MENU
                         
                     </a>
