@@ -36,6 +36,13 @@
             "Description": "Dive into a bowl of pure happiness with this delightful dessert. Overflowing with layers of sweetness and joy, it's the perfect way to brighten your day.",
             "img": " ",
             "price": "$7.99"
+        },
+        {
+            "id": 6,
+            "name": "Pizza Brownies ",
+            "Description": "Pizza Brownies: A savory-sweet deligh,",
+            "img": "../../ ",
+            "price": "$7.99"
         }
     ]
 }
