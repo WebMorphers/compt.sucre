@@ -8,9 +8,9 @@ import '@fontsource/itim';
 
 const welcome = () => {
   return (
-    <div className=" h-72 max-sm:h-[600px] max-md:h-96 bg-gradient-to-b from-[#dfcdb9] via-white to-[#dfcdb9] w-full z-0 ">
+    <div className=" h-96 max-sm:h-[600px] max-md:h-96 bg-gradient-to-b from-[#dfcdb9] via-white to-[#dfcdb9] w-full z-0 ">
         <div className="absolute right-0 z-10">
-            <img className="h-72 max-sm:h-[600px] max-md:h-96 max-md:opacity-80 " src={spoon} alt="" />
+            <img className="h-96 max-sm:h-[600px] max-md:h-96 max-md:opacity-80 " src={spoon} alt="" />
         </div>
         <div className="container p-10 px-20 lg:px-44 z-0 text-center  flex flex-col justify-between h-full items-center">
             <div className="title text-3xl flex flex-row gap-6">
