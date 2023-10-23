@@ -85,9 +85,9 @@ const Navbar = () => {
        
       <div onClick={chang} className="block md:hidden">
         {nav ? (
-          <AiOutlineClose size={20} color={"white"}/>
+          <AiOutlineClose size={20} color={"black"}/>
         ) : (
-          <AiOutlineMenu size={20} color={"white"}/>
+          <AiOutlineMenu size={20} color={"black"}/>
         )}
       </div>
       <div  className={
@@ -95,9 +95,9 @@ const Navbar = () => {
             ? "fixed left-0 top-0  h-full w-full border-r border-r-gray-900  bg-[#FFD596] ease-in-out duration-500 flex items-center justify-center flex-col"
             : "ease-in-out duration-500 fixed left-[-100%]"
         }>
-          <div onClick={chang} className="fixed top-20 right-20 z-10">
+          <div onClick={chang} className="absolute top-20 right-20 z-10">
         
-        <AiOutlineClose size={20} color={"white"}/>
+        <AiOutlineClose size={20} color={"black"}/>
       
     </div>
         
