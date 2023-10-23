@@ -50,7 +50,7 @@ const menu = () => {
           "id": 6,
           "name": "Pizza Brownies",
           "Description": "Pizza Brownies: A savory-sweet delight",
-          "img": Pizzab, // Corrected image source
+          "img": Pizzab,  
           "price": "$7.99"
         }
       ];
