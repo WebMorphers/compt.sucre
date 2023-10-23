@@ -4,6 +4,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { SlSocialInstagram } from 'react-icons/sl';
 import chocolat from '../../assets/chocolate.png'
 
+
 const Navbar = () => {
   const [nav, setnav] = useState(false);
   function chang() {
