@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { SlSocialInstagram } from 'react-icons/sl';
 import chocolat from '../../../assets/chocolate.png'
+import {   Link } from "react-router-dom";
+
 
 
 const Navbar = () => {
@@ -53,7 +55,7 @@ const Navbar = () => {
             onClick={() => scrollToSection("projects")}
             href="/menu"
           >
-            MENU
+           <Link to="/menu">MENU</Link>
           </a>
         </li>
          <li className="p-4">
