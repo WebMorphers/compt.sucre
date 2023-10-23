@@ -1,4 +1,3 @@
-
 import Hero from '../components/(page1)/Hero/hero'
 import Welcome from '../components/(page1)/welcome/welcome'
 import Footer from '../components/(page1)/footer/footer'
@@ -8,7 +7,7 @@ import Insta from '../components/(page1)/insta/insta'
 const home = () => {
   return (
     <>
-    <Hero />
+          <Hero />
           <Vid />
           <Insta />
           <Welcome />
