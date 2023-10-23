@@ -45,7 +45,7 @@ const menu = () => {
       },
       {
         "id": 5,
-        "name": "Bol de Bonheur",
+        "name": "Bowl of happiness",
         "Description": "Plongez dans un bol de pur bonheur avec ce délicieux dessert. Débordant de couches de douceur et de joie, c'est la façon parfaite d'illuminer votre journée.",
         "img":  Bowl,
         "price": "70 MAD"
