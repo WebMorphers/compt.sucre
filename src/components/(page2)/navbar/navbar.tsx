@@ -1,8 +1,8 @@
-import logo from "../../assets/logo.png";
+import logo from "../../../assets/logo.png";
 import { useEffect, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { SlSocialInstagram } from 'react-icons/sl';
-import chocolat from '../../assets/chocolate.png'
+import chocolat from '../../../assets/chocolate.png'
 
 
 const Navbar = () => {
@@ -33,14 +33,14 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div id="nav" className="flex  w-full absolute top-0  justify-between items-center h-24 mx-auto px-10 z-10 text-white">
+    <div id="nav" className="flex  w-full fixed top-0  justify-between items-center h-24 mx-auto px-10 z-10 text-black">
       <a href="#" onClick={() => scrollToSection("hello")}>
           <img className="h-20 w-23" src={logo} alt="" />
         </a>
       <ul className="hidden md:flex">
         <li className="p-4">
           <a
-            className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-amber-400"
+            className="no-underline mx-4 cursor-pointer font-normal	text-black hover:text-amber-400"
             onClick={() => scrollToSection("about_us")}
             href="/"
           >
@@ -49,7 +49,7 @@ const Navbar = () => {
         </li>
         <li className="p-4">
           <a
-            className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-amber-400"
+            className="no-underline mx-4 cursor-pointer font-normal	text-black hover:text-amber-400"
             onClick={() => scrollToSection("projects")}
             href="/menu"
           >
@@ -58,7 +58,7 @@ const Navbar = () => {
         </li>
          <li className="p-4">
           <a
-            className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-amber-400"
+            className="no-underline mx-4 cursor-pointer font-normal	text-black hover:text-amber-400"
             onClick={() => scrollToSection("projects")}
             href="#about"
           >
@@ -76,7 +76,7 @@ const Navbar = () => {
             href="https://www.instagram.com/comptoir.sucre/"
             target="blank"
           >
-            <SlSocialInstagram size={30}  color={"white"}  />
+            <SlSocialInstagram size={30}  color={"black"}  />
           </a>
         </li>
       </ul>
@@ -95,7 +95,7 @@ const Navbar = () => {
             ? "fixed left-0 top-0  h-full w-full border-r border-r-gray-900  bg-[#FFD596] ease-in-out duration-500 flex items-center justify-center flex-col"
             : "ease-in-out duration-500 fixed left-[-100%]"
         }>
-          <div onClick={chang} className="absolute top-20 right-20 z-10">
+          <div onClick={chang} className="fixed top-20 right-20 z-10">
         
         <AiOutlineClose size={20} color={"white"}/>
       

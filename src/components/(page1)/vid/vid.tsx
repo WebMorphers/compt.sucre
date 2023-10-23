@@ -1,5 +1,5 @@
 
-import bg from "../../assets/paper-bg.png";
+import bg from "../../../assets/paper-bg.png";
 import '@fontsource-variable/glory';
 import '@fontsource/itim';
 

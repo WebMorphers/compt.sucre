@@ -1,5 +1,5 @@
 
-import spoon from "../../assets/spoon.png" 
+import spoon from "../../../assets/spoon.png" 
 import "./welcome.css"
 import '@fontsource-variable/glory';
 import '@fontsource/itim';

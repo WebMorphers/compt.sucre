@@ -1,9 +1,9 @@
-import Hero from './components/Hero/hero'
+import Home from './routes/home';
+import Menu from './routes/menu';
+
 import './App.css'
-import Welcome from './components/welcome/welcome'
-import Footer from './components/footer/footer'
-import Vid from './components/vid/vid'
-import Insta from './components/insta/insta'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 
 
@@ -11,14 +11,17 @@ const App = () => {
 
   return (
     <> 
-       <Hero />
-       <div className=''>
-          <Vid />
-          <Insta />
-          <Welcome />
-          <Footer />
-          
-        </div>
+        <BrowserRouter>
+
+      <Routes>
+      <Route path="/" index element={<Home />} />
+
+      <Route path="/Menu" element={<Menu />} />
+
+      </Routes>
+      </BrowserRouter>
+
+        
     </>
   )
 }
