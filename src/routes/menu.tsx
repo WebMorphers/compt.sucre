@@ -11,8 +11,8 @@ const menu = () => {
             <Navbar />
             <div className='pt-24'>
                 <div>
-                    <div className='flex justify-center items-center'>
-                        <div className='m-5 flex flex-col justify-center items-center p-5 px-10 gap-5 flex-wrap shadow-xl rounded-lg hover:rounded-3xl hover:shadow-2xlxl cursor-pointer'>
+                    <div className='flex justify-center items-center flex-wrap'>
+                        <div className='m-10 flex flex-col justify-center items-center p-5 px-10 gap-5 flex-wrap shadow-xl rounded-3xl hover:shadow-2xl cursor-pointer max-w-sm'>
                             <div className='bg-gradient-to-t from-gray-300 to-gray-500 w-full flex justify-center p-5'>
                                 <img src={img} alt="Cake"/>
                             </div>
@@ -26,7 +26,7 @@ const menu = () => {
                             </div>
 
                         </div>
-                        <div className='m-5 flex flex-col justify-center items-center p-5 px-10 gap-5 flex-wrap shadow-xl rounded-lg hover:rounded-3xl hover:shadow-2xlxl cursor-pointer'>
+                        <div className='m-10 flex flex-col justify-center items-center p-5 px-10 gap-5 flex-wrap shadow-xl rounded-3xl  hover:shadow-2xl cursor-pointer max-w-sm'>
                             <div className='bg-gradient-to-t from-gray-300 to-gray-500 w-full flex justify-center p-5'>
                                 <img src={img} alt="Cake"/>
                             </div>
@@ -39,7 +39,7 @@ const menu = () => {
                                 </div>
                             </div>
 
-                        </div><div className='m-5 flex flex-col justify-center items-center p-5 px-10 gap-5 flex-wrap shadow-xl rounded-lg hover:rounded-3xl hover:shadow-2xlxl cursor-pointer'>
+                        </div><div className='m-10 flex flex-col justify-center items-center p-5 px-10 gap-5 flex-wrap shadow-xl rounded-3xl hover:shadow-2xl cursor-pointer max-w-sm'>
                             <div className='bg-gradient-to-t from-gray-300 to-gray-500 w-full flex justify-center p-5'>
                                 <img src={img} alt="Cake"/>
                             </div>
