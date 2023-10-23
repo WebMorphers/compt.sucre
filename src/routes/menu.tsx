@@ -1,5 +1,4 @@
 import data from '../data.json'
-import img from '../assets/cake1.png'
  
 import Navbar from "../components/(page2)/navbar/navbar"
 
