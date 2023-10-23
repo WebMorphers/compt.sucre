@@ -16,7 +16,7 @@ const menu = () => {
                             <div className='bg-gradient-to-t from-gray-300 to-gray-500 w-full flex justify-center p-5'>
                                 <img src={img} alt="Cake"/>
                             </div>
-                            <div className='flex flex-col items-center text-start gap-3'>
+                            <div className='flex flex-col items-center justify-center text-start gap-3'>
                                 <div className='text-2xl font-bold '>
                                     <h1>cake 1</h1>
                                 </div>
@@ -30,7 +30,7 @@ const menu = () => {
                             <div className='bg-gradient-to-t from-gray-300 to-gray-500 w-full flex justify-center p-5'>
                                 <img src={img} alt="Cake"/>
                             </div>
-                            <div className='flex flex-col items-center text-start gap-3'>
+                            <div className='flex flex-col items-center justify-center text-start gap-3'>
                                 <div className='text-2xl font-bold '>
                                     <h1>cake 1</h1>
                                 </div>
@@ -43,8 +43,8 @@ const menu = () => {
                             <div className='bg-gradient-to-t from-gray-300 to-gray-500 w-full flex justify-center p-5'>
                                 <img src={img} alt="Cake"/>
                             </div>
-                            <div className='flex flex-col items-center text-start gap-3'>
-                                <div className='text-2xl font-bold '>
+                            <div className='flex flex-col items-center justify-center text-start gap-3'>
+                                <div className='text-2xl font-bold flex justify-center'>
                                     <h1>cake 1</h1>
                                 </div>
                                 <div className='font-light '>
