@@ -4,7 +4,6 @@ import vid2 from "../../../assets/insta2.mp4";
 import vid3 from "../../../assets/insta3.mp4";
 import vid4 from "../../../assets/insta4.mp4";
 import "./insta.css";
-import LazyLoad from "react-lazy-load";
 
 const insta = () => {
   return (
@@ -27,24 +26,28 @@ const insta = () => {
           loadingOverlay={<div className="loading-overlay">Loading...</div>}
           restartOnPaused
           videoSrc={vid1}
+          loadingStateTimeout={10}
         />
 
         <HoverVideoPlayer
           loadingOverlay={<div className="loading-overlay">Loading...</div>}
           restartOnPaused
           videoSrc={vid2}
+          loadingStateTimeout={10}
         />
 
         <HoverVideoPlayer
           loadingOverlay={<div className="loading-overlay">Loading...</div>}
           restartOnPaused
           videoSrc={vid3}
+          loadingStateTimeout={10}
         />
 
         <HoverVideoPlayer
           restartOnPaused
           loadingOverlay={<div className="loading-overlay">Loading...</div>}
           videoSrc={vid4}
+          loadingStateTimeout={10}
         />
       </div>
     </div>
