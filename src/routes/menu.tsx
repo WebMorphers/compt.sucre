@@ -22,6 +22,8 @@ const menu = () => {
                         <h1>{item.name}</h1>
                       </div>
                       <div className='font-light '>{item.Description}</div>
+                      <h1 className='text-blue-500 text-2xl font-bold'>{item.price}</h1>
+
                     </div>
                   </div>
                 ))}
