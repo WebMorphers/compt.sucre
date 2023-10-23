@@ -3,6 +3,8 @@ import vid1 from "../../../assets/insta1.mp4";
 import vid2 from "../../../assets/insta2.mp4";
 import vid3 from "../../../assets/insta3.mp4";
 import vid4 from "../../../assets/insta4.mp4";
+import CircularProgress from '@mui/material/CircularProgress';
+import Box from '@mui/material/Box';
 import "./insta.css";
 
 const insta = () => {
@@ -23,21 +25,27 @@ const insta = () => {
       </h1>
       <div className="grid md:grid-cols-4 gap-9 grid-cols-2">
         <HoverVideoPlayer
-          loadingOverlay={<div className="loading-overlay">Loading...</div>}
+          loadingOverlay={<div className="loading-overlay flex justify-center items-center"> <Box sx={{ display: 'flex' }}>
+          <CircularProgress />
+        </Box></div>}
           restartOnPaused
           videoSrc={vid1}
           loadingStateTimeout={10}
         />
 
         <HoverVideoPlayer
-          loadingOverlay={<div className="loading-overlay">Loading...</div>}
+          loadingOverlay={<div className="loading-overlay flex justify-center items-center"> <Box sx={{ display: 'flex' }}>
+          <CircularProgress />
+        </Box></div>}
           restartOnPaused
           videoSrc={vid2}
           loadingStateTimeout={10}
         />
 
         <HoverVideoPlayer
-          loadingOverlay={<div className="loading-overlay">Loading...</div>}
+          loadingOverlay={<div className="loading-overlay flex justify-center items-center"> <Box sx={{ display: 'flex' }}>
+          <CircularProgress />
+        </Box></div>}
           restartOnPaused
           videoSrc={vid3}
           loadingStateTimeout={10}
@@ -45,7 +53,9 @@ const insta = () => {
 
         <HoverVideoPlayer
           restartOnPaused
-          loadingOverlay={<div className="loading-overlay">Loading...</div>}
+          loadingOverlay={<div className="loading-overlay flex justify-center items-center"> <Box sx={{ display: 'flex' }}>
+          <CircularProgress />
+        </Box></div>}
           videoSrc={vid4}
           loadingStateTimeout={10}
         />
