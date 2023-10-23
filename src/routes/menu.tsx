@@ -5,6 +5,10 @@ import WhitBrownies from "../assets/menu/White Brownies.jpg"
 import Bowl from "../assets/menu/Bowl of Happiness.jpg" 
 import Pizzab from "../assets/menu/Pizza Brownies.jpg" 
 import Card from "../components/(page2)/card/card"
+import '@fontsource-variable/glory';
+import '@fontsource/itim';
+import '../components/(page1)/welcome/welcome.css'
+
 
 
 import Navbar from "../components/(page2)/navbar/navbar"
@@ -57,13 +61,19 @@ const menu = () => {
     return (
         <>
           <Navbar />
-          <div className='pt-24'>
+          <div className="mt-24 flex flex-col gap-5">
+            <div className="flex my-5 items-center justify-center text-7xl font-semibold title">
+                <h1>Notre Menu</h1>
+            </div>
+            <hr />
             <div>
-              <div className='flex justify-center items-center flex-wrap'>
-                  {items.map((item) => (
-                    <Card key={item.id} item={item} />
-                  ))}
-              </div>
+                <div>
+                    <div className='flex justify-center items-center flex-wrap'>
+                        {items.map((item) => (
+                            <Card key={item.id} item={item} />
+                        ))}
+                    </div>
+                </div>
             </div>
           </div>
         </>
