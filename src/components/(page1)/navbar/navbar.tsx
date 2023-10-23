@@ -43,7 +43,7 @@ const Navbar = () => {
         <li className="p-4">
           <a
             className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-amber-400"
-            onClick={() => scrollToSection("about_us")}
+             
             href="/"
           >
             ACCUEIL
@@ -51,8 +51,7 @@ const Navbar = () => {
         </li>
         <li className="p-4">
           <a
-            className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-amber-400"
-            onClick={() => scrollToSection("projects")}
+            className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-amber-400" 
             href="/menu"
           >
            <Link to="/menu">MENU</Link>

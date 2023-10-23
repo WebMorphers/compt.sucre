@@ -5,7 +5,7 @@ import img from '../assets/cake1.png'
 
 import Navbar from "../components/(page2)/navbar/navbar"
 
-const menu = () => {
+const menu = () => { 
   return (
     <>
             <Navbar />
