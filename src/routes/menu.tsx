@@ -7,8 +7,11 @@ import Pizzab from "../assets/menu/Pizza Brownies.jpg"
 import Card from "../components/(page2)/card/card"
 import '@fontsource-variable/glory';
 import '@fontsource/itim';
+import '@fontsource/nosifer';
+import './menu.css'
 import '../components/(page1)/welcome/welcome.css' 
 import Footer from "../components/(page1)/footer/footer"
+
 
 
 
@@ -64,7 +67,7 @@ const menu = () => {
           <Navbar />
           <div className="mt-24 flex flex-col gap-5">
             <div className="flex flex-col my-5 items-center justify-center text-7xl font-semibold title text-center gap-5">
-                <h1>Notre Menu</h1>
+                <h1 className="menu text-amber-800">Notre Menu</h1>
                 <hr className="w-full md:w-1/2 " />
 
             </div>

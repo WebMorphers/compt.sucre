@@ -12,6 +12,7 @@
   "dependencies": {
     "@fontsource-variable/glory": "^5.0.17",
     "@fontsource/itim": "^5.0.16",
+    "@fontsource/nosifer": "^5.0.17",
     "@fontsource/twinkle-star": "^5.0.16",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
