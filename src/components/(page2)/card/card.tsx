@@ -13,7 +13,7 @@ type CardProps = {
 const Card = ({ item }: CardProps) => {
   return (
     <div>
-      <div className="card max-md:m-5 xlg: m-12 hover:shadow-2xl rounded-3xl">
+      <div className="card max-md:m-5 xlg: m-12 hover:shadow-2xl rounded-3xl ">
         <LazyLoadImage alt="alt" src={item.img}  placeholderSrc={logo} />
         <div className="card__content">
           <p className="card__title">{item.name}</p>
