@@ -16,7 +16,7 @@ const Card = ({ item }: CardProps) => {
             <div className="card max-md:m-5 xlg: m-12 hover:shadow-2xl rounded-3xl">
             <LazyLoadImage
       alt="alt" 
-      src={item.img}  />
+      src={item.img} effect="blur"  />
                 <div className="card__content">
                     <p className="card__title">{item.name}</p>
                     <p className="card__description">{item.Description}</p>
