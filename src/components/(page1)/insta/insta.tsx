@@ -17,14 +17,17 @@ const insta = () => {
         <h1 className='text-sky-950 text-center'>Suivez  <a href="https://www.instagram.com/comptoir.sucre/" target='-blank' className='visited:text-black  hover:text-neutral-700 text-inherit'><span className='underline'>@comptoir.sucre</span></a> sur Instagram pour plus d'inspiration en brownies gourmets !</h1>
         <div className='grid md:grid-cols-4 gap-9 grid-cols-2'>
     
-        <HoverVideoPlayer restartOnPaused  videoSrc={vid1}/>
+        <HoverVideoPlayer restartOnPaused   preload="metadata"
+ videoSrc={vid1}/>
     
-        <HoverVideoPlayer restartOnPaused  videoSrc={vid2}/>
+        <HoverVideoPlayer restartOnPaused   preload="metadata"
+ videoSrc={vid2}/>
 
-        <HoverVideoPlayer  restartOnPaused videoSrc={vid3}/>
+        <HoverVideoPlayer  restartOnPaused   preload="metadata"
+ videoSrc={vid3}/>
 
-    
-        <HoverVideoPlayer restartOnPaused   videoSrc={vid4}/>
+        <HoverVideoPlayer restartOnPaused    preload="metadata"
+ videoSrc={vid4}/>
 
         </div>
 
