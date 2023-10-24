@@ -1,29 +1,21 @@
-import Home from './routes/home';
-import Menu from './routes/menu';
+import Home from "./routes/home";
+import Menu from "./routes/menu";
 
-import './App.css'
+import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-
-
-
 const App = () => {
-
   return (
-    <> 
-        <BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" index element={<Home />} />
 
-      <Routes>
-      <Route path="/" index element={<Home />} />
-
-      <Route path="/Menu" element={<Menu />} />
-
-      </Routes>
+          <Route path="/menu" element={<Menu />} />
+        </Routes>
       </BrowserRouter>
-
-        
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
