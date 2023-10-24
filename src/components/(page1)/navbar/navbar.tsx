@@ -49,13 +49,6 @@ const Navbar = () => {
             ACCUEIL
           </a>
         </li>
-        <li className="p-4">
-          <a
-            className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-amber-400"    
-          >
-          <Link to="/menu">MENU</Link>
-          </a>
-        </li>
          <li className="p-4">
           <a
             className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-amber-400"
@@ -63,6 +56,13 @@ const Navbar = () => {
             href="#about"
           >
             A PROPOS
+          </a>
+        </li>
+        <li className="p-4">
+          <a
+            className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-amber-400"    
+          >
+          <Link to="/menu">MENU</Link>
           </a>
         </li>
 
@@ -118,15 +118,6 @@ const Navbar = () => {
           </a>
         </li>
         <li className="p-4">
-          <a
-            className="no-underline mx-4 cursor-pointer font-thin text-black hover:text-amber-400"
-            onClick={() => scrollToSection("projects")}
-            href="/menu"
-          >
-            MENU
-          </a>
-        </li>
-        <li className="p-4">
           {" "}
           <a
             className="no-underline mx-4 cursor-pointer font-thin text-black hover:text-amber-400"
@@ -134,6 +125,15 @@ const Navbar = () => {
             href="#about"
           >
             A PROPOS
+          </a>
+        </li>
+        <li className="p-4">
+          <a
+            className="no-underline mx-4 cursor-pointer font-thin text-black hover:text-amber-400"
+            onClick={() => scrollToSection("projects")}
+            href="/menu"
+          >
+            MENU
           </a>
         </li>
       </ul>
