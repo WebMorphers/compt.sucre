@@ -22,19 +22,24 @@ const insta = () => {
         sur Instagram pour plus d'inspiration en brownies gourmets !
       </h1>
       <div className="grid md:grid-cols-4 gap-9 grid-cols-2">
-        <HoverVideoPlayer loop={true} restartOnPaused  preload="metadata"
- videoSrc={vid1} />
+        <HoverVideoPlayer
+          loop={true}
+          restartOnPaused
+          preload="metadata"
+          videoSrc={vid1}
+        />
 
-        <HoverVideoPlayer loop={true} restartOnPaused  preload="metadata"
- videoSrc={vid2} />
+        <HoverVideoPlayer
+          loop={true}
+          restartOnPaused
+          preload="metadata"
+          videoSrc={vid2}
+        />
 
-        <HoverVideoPlayer  restartOnPaused videoSrc={vid3}/>
+        <HoverVideoPlayer restartOnPaused videoSrc={vid3} />
 
-    
-        <HoverVideoPlayer restartOnPaused   videoSrc={vid4}/>
-
-        </div>
-
+        <HoverVideoPlayer restartOnPaused videoSrc={vid4} />
+      </div>
     </div>
   );
 };
