@@ -65,7 +65,7 @@ const menu = () => {
     return (
         <>
           <Navbar />
-          <div className="mt-24 flex flex-col gap-5">
+          <div className="mt-24 flex flex-col gap-5 my-12">
              <div className="flex flex-col my-5 items-center justify-center text-7xl font-semibold title text-center gap-5">
                 <h1 className="menu text-amber-800">Notre Menu</h1>
                 <hr className="w-full md:w-1/2 " />
