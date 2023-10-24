@@ -33,13 +33,13 @@ const Navbar = () => {
 
   return (
     <div id="nav" className="flex  w-full fixed top-0  justify-between items-center h-24 mx-auto px-10 z-10 text-black bg-[#FFD596]">
-      <a href="#" onClick={() => scrollToSection("hello")}>
+      <a href="/" onClick={() => scrollToSection("hello")}>
           <img className="h-20 w-23" src={logo} alt="" />
         </a>
       <ul className="hidden md:flex">
         <li className="p-4">
           <a
-            className="no-underline mx-4 cursor-pointer font-normal	text-black hover:text-amber-400"
+            className="no-underline mx-4 cursor-pointer font-normal	text-black hover:text-[#725e5d]"
             onClick={() => scrollToSection("about_us")}
             href="/"
           >
@@ -48,7 +48,7 @@ const Navbar = () => {
         </li>
         <li className="p-4">
           <a
-            className="no-underline mx-4 cursor-pointer font-normal	text-black hover:text-amber-400"
+            className="no-underline mx-4 cursor-pointer font-normal	text-black hover:text-[#725e5d]"
             onClick={() => scrollToSection("projects")}
             href="/menu"
           >
@@ -57,7 +57,7 @@ const Navbar = () => {
         </li>
          <li className="p-4">
           <a
-            className="no-underline mx-4 cursor-pointer font-normal	text-black hover:text-amber-400"
+            className="no-underline mx-4 cursor-pointer font-normal	text-black hover:text-[#725e5d]"
             onClick={() => scrollToSection("projects")}
             href="#about"
           >
