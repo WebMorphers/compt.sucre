@@ -3,8 +3,22 @@ import { useEffect, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { SlSocialInstagram } from 'react-icons/sl';
 import chocolat from '../../../assets/chocolate.png'
+import {useNavigate} from 'react-router-dom';
+
 
 const Navbar = () => {
+  const navigate = useNavigate();
+
+  const navigateAndScrollToSection = (sectionId: string) => {
+    if (window.location.pathname === "/menu") {
+      navigate('/');
+      setTimeout(() => {
+        scrollToSection(sectionId);
+      }, 500); // Adjust the delay as needed
+    } else {
+      scrollToSection(sectionId);
+    }
+  };
   const [nav, setnav] = useState(false);
   function chang() {
     setnav(!nav);
@@ -46,40 +60,24 @@ const Navbar = () => {
             ACCUEIL
           </a>
         </li>
-         <li className="p-4">
+        <li className="p-4">
           <a
             className="no-underline mx-4 cursor-pointer font-normal	text-black hover:text-[#725e5d]"
-            onClick={() => scrollToSection("projects")}
-            href="/"
+            onClick={() => navigateAndScrollToSection("about")}
+            href="#about"
           >
             A PROPOS
           </a>
         </li>
         <li className="p-4">
           <a
-            className="no-underline mx-4 cursor-pointer font-normal	text-black hover:text-[#725e5d]"
-            onClick={() => scrollToSection("projects")}
+            className="no-underline mx-4 cursor-pointer font-normal	text-black hover:text-[#725e5d]" 
             href="/menu"
           >
             MENU
           </a>
         </li>
-         <li className="p-4">
-          <a
-            className="no-underline mx-4 cursor-pointer font-normal	text-black hover:text-[#725e5d]"
-            onClick={() => {
-              if (window.location.pathname === "/menu") {
-                window.location.href = "/";
-                scrollToSection("about");
-              } else {
-                scrollToSection("about");
-              }
-            }}
-            href="#about"
-          >
-            A PROPOS
-          </a>
-        </li>
+         
 
       </ul>
       <ul className="hidden md:flex">
