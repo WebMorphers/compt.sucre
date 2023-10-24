@@ -60,7 +60,8 @@ const Navbar = () => {
             className="no-underline mx-4 cursor-pointer font-normal	text-black hover:text-[#725e5d]"
             onClick={() => {
               if (window.location.pathname === "/menu") {
-                window.location.href = "/#about";
+                window.location.href = "/";
+                scrollToSection("about");
               } else {
                 scrollToSection("about");
               }
