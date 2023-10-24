@@ -4,7 +4,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { SlSocialInstagram } from 'react-icons/sl';
 import chocolat from '../../../assets/chocolate.png'
 import {   Link } from "react-router-dom";
-
+ 
 
 
 const Navbar = () => {
@@ -51,10 +51,9 @@ const Navbar = () => {
         </li>
         <li className="p-4">
           <a
-            className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-amber-400" 
-            href="/menu"
+            className="no-underline mx-4 cursor-pointer font-normal	text-white hover:text-amber-400"    
           >
-           <Link to="/menu">MENU</Link>
+          <Link to="/menu">MENU</Link>
           </a>
         </li>
          <li className="p-4">
