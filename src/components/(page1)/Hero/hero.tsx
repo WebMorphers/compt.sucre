@@ -22,7 +22,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="hero w-full relative z-0 flex flex-col justify-center items-center" style={heroStyle}>
+    <div className="hero w-full relative z-0 flex flex-col justify-center items-center" style={heroStyle} id='hero'>
       <Navbar />
        
    
