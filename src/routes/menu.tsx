@@ -7,7 +7,7 @@ import Pizzab from "../assets/menu/Pizza Brownies.jpg"
 import Card from "../components/(page2)/card/card"
 import '@fontsource-variable/glory';
 import '@fontsource/itim';
-import '../components/(page1)/welcome/welcome.css'
+import '../components/(page1)/welcome/welcome.css' 
 import Footer from "../components/(page1)/footer/footer"
 
 
