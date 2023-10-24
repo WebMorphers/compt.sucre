@@ -58,7 +58,13 @@ const Navbar = () => {
          <li className="p-4">
           <a
             className="no-underline mx-4 cursor-pointer font-normal	text-black hover:text-[#725e5d]"
-            onClick={() => scrollToSection("projects")}
+            onClick={() => {
+              if (window.location.pathname === "/menu") {
+                window.location.href = "/#about";
+              } else {
+                scrollToSection("about");
+              }
+            }}
             href="#about"
           >
             A PROPOS
