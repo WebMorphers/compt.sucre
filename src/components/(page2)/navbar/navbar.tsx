@@ -64,7 +64,6 @@ const Navbar = () => {
             MENU
           </a>
         </li>
-<<<<<<< Updated upstream
          <li className="p-4">
           <a
             className="no-underline mx-4 cursor-pointer font-normal	text-black hover:text-[#725e5d]"
@@ -80,8 +79,6 @@ const Navbar = () => {
             A PROPOS
           </a>
         </li>
-=======
->>>>>>> Stashed changes
 
       </ul>
       <ul className="hidden md:flex">
