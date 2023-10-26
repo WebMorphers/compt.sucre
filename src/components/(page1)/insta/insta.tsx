@@ -3,6 +3,10 @@ import vid1 from "../../../assets/insta1.mp4";
 import vid2 from "../../../assets/insta2.mp4";
 import vid3 from "../../../assets/insta3.mp4";
 import vid4 from "../../../assets/insta4.mp4";
+import vid1Thumbnail from "../../../assets/insta4.mp4";
+import vid2Thumbnail from "../../../assets/insta4.mp4";
+import vid3Thumbnail from "../../../assets/insta4.mp4";
+import vid4Thumbnail from "../../../assets/insta4.mp4";
 import "./insta.css";
 
 const insta = () => {
@@ -22,23 +26,33 @@ const insta = () => {
         sur Instagram pour plus d'inspiration en brownies gourmets !
       </h1>
       <div className="grid md:grid-cols-4 gap-9 grid-cols-2">
-        <HoverVideoPlayer
-          loop={true}
-          restartOnPaused
-          preload="metadata"
-          videoSrc={vid1}
-        />
+      <HoverVideoPlayer
+  loop={true}
+  restartOnPaused 
+  videoSrc={vid1}
+  thumbnailSrc={vid1Thumbnail}  
+/>
 
-        <HoverVideoPlayer
-          loop={true}
-          restartOnPaused
-          preload="metadata"
-          videoSrc={vid2}
-        />
+<HoverVideoPlayer
+  loop={true}
+  restartOnPaused 
+  videoSrc={vid2}
+  thumbnailSrc={vid2Thumbnail}  
+/>
 
-        <HoverVideoPlayer restartOnPaused videoSrc={vid3} />
+<HoverVideoPlayer
+loop={true}
+  restartOnPaused 
+  videoSrc={vid3}
+  thumbnailSrc={vid3Thumbnail}  
+/>
 
-        <HoverVideoPlayer restartOnPaused videoSrc={vid4} />
+<HoverVideoPlayer
+loop={true}
+  restartOnPaused
+  videoSrc={vid4}
+  thumbnailSrc={vid4Thumbnail}  
+/>
       </div>
     </div>
   );
