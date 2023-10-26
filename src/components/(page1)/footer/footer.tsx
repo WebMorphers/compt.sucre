@@ -4,11 +4,36 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import logo from '../../../assets/logo.png'
+import {useNavigate} from 'react-router-dom';
+
+
 
 
 import './footer.css'
 
+
 const Footer = () => {
+    const navigate = useNavigate();
+
+    const navigateAndScrollToSection = (sectionId: string) => {
+        if (window.location.pathname === "/menu") {
+          navigate('/');
+          setTimeout(() => {
+            scrollToSection(sectionId);
+          }, 500); // Adjust the delay as needed
+        } else {
+          scrollToSection(sectionId);
+        }
+      };
+      const scrollToSection = (sectionId: string) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+          window.scrollTo({
+            top: section.offsetTop,
+            behavior: "smooth",  
+          });
+        }
+      };
   return (
     <footer>
         <div className='bg-[#402B2A] flex flex-col flex-wrap justify-center py-8 gap-3 text-white px-5 lg:px-24 '>
@@ -17,7 +42,10 @@ const Footer = () => {
                     <a href="/">
                         ACCUEIL
                     </a>
-                    <a href="#about">
+                    <a
+                        onClick={() => navigateAndScrollToSection("about")}
+                        href="#about"
+                    >
                         A PROPOS
                     </a>
 
