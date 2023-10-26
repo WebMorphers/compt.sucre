@@ -3,10 +3,10 @@ import vid1 from "../../../assets/insta1.mp4";
 import vid2 from "../../../assets/insta2.mp4";
 import vid3 from "../../../assets/insta3.mp4";
 import vid4 from "../../../assets/insta4.mp4";
-import vid1Thumbnail from "../../../assets/insta4.mp4";
-import vid2Thumbnail from "../../../assets/insta4.mp4";
-import vid3Thumbnail from "../../../assets/insta4.mp4";
-import vid4Thumbnail from "../../../assets/insta4.mp4";
+import vid1Thumbnail from "../../../assets/vid1Thumbnail.png";
+import vid2Thumbnail from "../../../assets/vid2Thumbnail.png";
+import vid3Thumbnail from "../../../assets/vid2Thumbnail.png";
+import vid4Thumbnail from "../../../assets/vid2Thumbnail.png";
 import "./insta.css";
 
 const insta = () => {
